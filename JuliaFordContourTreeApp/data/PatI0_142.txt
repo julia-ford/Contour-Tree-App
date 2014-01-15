@@ -1,0 +1,12 @@
+fieldNum=1
+I= 30
+J= 22
+K= 18
+value: -18.618618 - 2061.507568 
+d value: 0.000000 - 2061.507568 
+Number of Critical Points = 1906
+Number of Arcs = 1905
+Number of Branches = 953
+** field 0 ** 
+Number of Critical Points = 1906
+Number of Branches = 953

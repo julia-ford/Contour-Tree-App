@@ -1,0 +1,15 @@
+fieldNum=2
+I= 4
+J= 5
+K= 3
+value: 0.000024 - 0.015719 
+d value: 0.000000 - 0.000638 
+Number of Critical Points = 6
+Number of Arcs = 6
+Number of Branches = 3
+** field 0 ** 
+Number of Critical Points = 6
+Number of Branches = 3
+** field 1 ** 
+Number of Critical Points = 6
+Number of Branches = 3

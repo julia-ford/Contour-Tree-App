@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['getchildless',['GetChildless',['../class_julia_ford_contour_tree_app_1_1_trees_1_1_abstract_tree.html#a2059f58a67fda229eea34b71ea60a57d',1,'JuliaFordContourTreeApp::Trees::AbstractTree']]],
+  ['getchildren',['GetChildren',['../class_julia_ford_contour_tree_app_1_1_tree_node.html#a919878854790685693cb7a60ad278767',1,'JuliaFordContourTreeApp::TreeNode']]],
+  ['getcritical',['GetCritical',['../class_julia_ford_contour_tree_app_1_1_trees_1_1_abstract_tree.html#a5c9f3fd4b1dcf86e9269dfc88219cb1d',1,'JuliaFordContourTreeApp::Trees::AbstractTree']]],
+  ['getjoinedges',['getJoinEdges',['../class_julia_ford_contour_tree_app_1_1_trees_1_1_contour_tree.html#a71265ebbc8f01bedc4f145b24b961059',1,'JuliaFordContourTreeApp::Trees::ContourTree']]],
+  ['getmaxvalue',['GetMaxValue',['../class_julia_ford_contour_tree_app_1_1_file___data_1_1_file_data_abstract.html#a382a660112edd768ae3b7c0a26f32564',1,'JuliaFordContourTreeApp::File_Data::FileDataAbstract']]],
+  ['getmerging',['GetMerging',['../class_julia_ford_contour_tree_app_1_1_trees_1_1_abstract_tree.html#a19a8a87be453b6b63e20821caddd71d0',1,'JuliaFordContourTreeApp::Trees::AbstractTree']]],
+  ['getminvalue',['GetMinValue',['../class_julia_ford_contour_tree_app_1_1_file___data_1_1_file_data_abstract.html#a97cb83475ab2f3536b631010f2bb92c1',1,'JuliaFordContourTreeApp::File_Data::FileDataAbstract']]],
+  ['getmostrecentlyaddednode',['GetMostRecentlyAddedNode',['../class_julia_ford_contour_tree_app_1_1_blob_of_nodes.html#a4263500c472199c7ffe8f9a8b1691c51',1,'JuliaFordContourTreeApp::BlobOfNodes']]],
+  ['getnumchildlessdescendents',['GetNumChildlessDescendents',['../class_julia_ford_contour_tree_app_1_1_tree_node.html#a7cd3150f0bde29682d6b9eb43b1b0a56',1,'JuliaFordContourTreeApp::TreeNode']]],
+  ['getnumparentlessancestors',['GetNumParentlessAncestors',['../class_julia_ford_contour_tree_app_1_1_tree_node.html#a0ad1de982f64fe9ca9beaeab67dad321',1,'JuliaFordContourTreeApp::TreeNode']]],
+  ['getnumslotsneeded',['GetNumSlotsNeeded',['../class_julia_ford_contour_tree_app_1_1_trees_1_1_abstract_tree.html#ae3919e59c6ce8f966ccd717ec0c37873',1,'JuliaFordContourTreeApp.Trees.AbstractTree.GetNumSlotsNeeded()'],['../class_julia_ford_contour_tree_app_1_1_trees_1_1_join_tree.html#a712bed5092c04cfe58add177c24d2e3e',1,'JuliaFordContourTreeApp.Trees.JoinTree.GetNumSlotsNeeded()'],['../class_julia_ford_contour_tree_app_1_1_trees_1_1_split_tree.html#aba15e1af7c090b2096d34954793ffde7',1,'JuliaFordContourTreeApp.Trees.SplitTree.GetNumSlotsNeeded()']]],
+  ['getparentless',['GetParentless',['../class_julia_ford_contour_tree_app_1_1_trees_1_1_abstract_tree.html#a5e3e7b6fc7eee126a665cb1b11b85809',1,'JuliaFordContourTreeApp::Trees::AbstractTree']]],
+  ['getparents',['GetParents',['../class_julia_ford_contour_tree_app_1_1_tree_node.html#a7b787e85519b063dcefa82a83a7ae63a',1,'JuliaFordContourTreeApp::TreeNode']]],
+  ['getpixelsperslot',['GetPixelsPerSlot',['../class_julia_ford_contour_tree_app_1_1_tree___views_1_1_abstract_tree_view.html#a8ddd660cb5ff6916d14c859ac2cd60a9',1,'JuliaFordContourTreeApp::Tree_Views::AbstractTreeView']]],
+  ['gridpoint',['GridPoint',['../class_julia_ford_contour_tree_app_1_1_grid_point.html#ad374ba30b1d493b737d76b8d04e813bb',1,'JuliaFordContourTreeApp::GridPoint']]],
+  ['gridpoint',['GridPoint',['../class_julia_ford_contour_tree_app_1_1_grid_point.html',1,'JuliaFordContourTreeApp']]],
+  ['gui',['GUI',['../class_julia_ford_contour_tree_app_1_1_g_u_i.html#accd6f3c8d54a5f8a1f35e7ff8613b086',1,'JuliaFordContourTreeApp::GUI']]],
+  ['gui',['GUI',['../class_julia_ford_contour_tree_app_1_1_g_u_i.html',1,'JuliaFordContourTreeApp']]],
+  ['guipanel',['GUIpanel',['../class_julia_ford_contour_tree_app_1_1_g_u_ipanel.html',1,'JuliaFordContourTreeApp']]],
+  ['guipanel',['GUIpanel',['../class_julia_ford_contour_tree_app_1_1_g_u_ipanel.html#a7ddbfcdf3743dd6031e889c19d307cbc',1,'JuliaFordContourTreeApp::GUIpanel']]],
+  ['guipanelmenu',['GUIpanelMenu',['../class_julia_ford_contour_tree_app_1_1_g_u_ipanel_menu.html#a836564a2fc9779560f917b9958c502ac',1,'JuliaFordContourTreeApp::GUIpanelMenu']]],
+  ['guipanelmenu',['GUIpanelMenu',['../class_julia_ford_contour_tree_app_1_1_g_u_ipanel_menu.html',1,'JuliaFordContourTreeApp']]]
+];

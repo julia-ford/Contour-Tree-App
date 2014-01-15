@@ -1,0 +1,13 @@
+fieldNum=1
+I= 9
+J= 9
+K= 1
+value: 0.543706 - 1.082346 
+d value: 0.000000 - 0.457429 
+Number of Critical Points = 14
+Number of Arcs = 13
+Number of Branches = 7
+Number of Recur = 6
+** field 0 ** 
+Number of Critical Points = 14
+Number of Branches = 7

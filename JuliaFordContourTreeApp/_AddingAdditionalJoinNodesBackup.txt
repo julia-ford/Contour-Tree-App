@@ -1,0 +1,86 @@
+//===============================================================//
+			// Add additional nodes from join tree.
+			//===============================================================//
+
+			// Add nodes from the Join tree until the join tree has no more
+			// branches to add and only the trunk remains.
+			// Please note: this means the node currently being examined will
+			// always have a valid, non-null child.
+			while (cloneJoinTree.GetParentless().Count > 1)
+			{
+				// Store the node we'll be working with.
+				TreeNode oldNode = cloneJoinTree.GetParentless()[0];
+				// Also store the child of the node being worked with.
+				TreeNode oldChild = oldNode.GetChildren()[0];
+
+				// The blob that contains the current node.
+				BlobOfContourNodes containingBlob = null;
+				// The blob that contains the current node's child.
+				BlobOfContourNodes trunkBlob = null;
+
+				// Look through the blobs until both the containingBlob and
+				// trunkBlob are found, or all of the blobs have been examined.
+				int index = 0;
+				while ((containingBlob == null || trunkBlob == null) && index < blobList.Count)
+				{
+					// Store current blob and its most recently added node in
+					// temporary variables to avoid extra function calls.
+					BlobOfContourNodes currentBlob = blobList[index];
+					ContourNode mostRecent = currentBlob.GetMostRecentlyAddedNode();
+
+					// Check if current blob is containingBlob.
+					if (mostRecent.Matches(oldNode)) {
+						containingBlob = currentBlob; }
+
+					// Check if current blob is childBlob.
+					else if (oldChild.Matches(mostRecent)){
+						trunkBlob = currentBlob; }
+
+					index++; }
+
+				// If trunkBlob was not found, make a new node for the trunk
+				// and add it to the contour tree and the containingBlob.
+				if (trunkBlob == null) {
+					ContourNode newNode = containingBlob.GetMostRecentlyAddedNode();
+					ContourNode newTrunk = new ContourNode(oldChild);
+
+					// Set trunk / branch relations.
+					newNode.SetTrunk(newTrunk);
+					newTrunk.AddBranch(newNode);
+
+					// Add newTrunk to the blob.
+					containingBlob.Add(newTrunk); }
+
+				// If the trunkBlob was found, merge the trunkBlob and
+				// containingBlob blobs.
+				else {
+					ContourNode newNode = containingBlob.GetMostRecentlyAddedNode();
+					ContourNode newTrunk = trunkBlob.GetMostRecentlyAddedNode();
+
+					// Set branch / trunk relations.
+					newNode.SetTrunk(newTrunk);
+					newTrunk.AddBranch(newNode);
+
+					// Make a list of the two blobs so the blob merge
+					// constructor can be used.
+					List<BlobOfContourNodes> paramList = new List<BlobOfContourNodes>();
+					paramList.Add(containingBlob);
+					paramList.Add(trunkBlob);
+
+					// This prevents the newTrunk from being double-listed
+					// in the new blob.
+					trunkBlob.Remove(newTrunk);
+
+					// Make the new blob, containing all the nodes from the
+					// trunk and containing blobs, with newTrunk as root.
+					BlobOfContourNodes newBlob = new BlobOfContourNodes(newTrunk, paramList);
+
+					// Update the blob list.
+					blobList.Remove(containingBlob);
+					blobList.Remove(trunkBlob);
+					blobList.Add(newBlob); }
+
+				// Either way, remove the node from both trees.
+				cloneSplitTree.RemoveMatch(oldNode);
+				cloneJoinTree.RemoveMatch(oldNode);
+			} // end of adding additional nodes from the join tree

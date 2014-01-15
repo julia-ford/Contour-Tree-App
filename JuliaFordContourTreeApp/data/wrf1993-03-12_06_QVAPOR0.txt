@@ -1,0 +1,18 @@
+fieldNum=3
+I= 28
+J= 25
+K= 1
+value: 0.002312 - 0.003810 
+d value: 0.000000 - 0.000977 
+Number of Critical Points = 70
+Number of Arcs = 69
+Number of Branches = 35
+** field 0 ** 
+Number of Critical Points = 72
+Number of Branches = 36
+** field 1 ** 
+Number of Critical Points = 70
+Number of Branches = 35
+** field 2 ** 
+Number of Critical Points = 70
+Number of Branches = 35

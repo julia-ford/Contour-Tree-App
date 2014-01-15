@@ -1,0 +1,34 @@
+fieldNum=8
+I= 11
+J= 11
+K= 1
+value: 0.161482 - 5.795453 
+d value: 0.000311 - 3.271628 
+Number of Critical Points = 18
+Number of Arcs = 17
+Number of Branches = 9
+Number of Recur = 8
+** field 0 ** 
+Number of Critical Points = 18
+Number of Branches = 9
+** field 1 ** 
+Number of Critical Points = 18
+Number of Branches = 9
+** field 2 ** 
+Number of Critical Points = 18
+Number of Branches = 9
+** field 3 ** 
+Number of Critical Points = 18
+Number of Branches = 9
+** field 4 ** 
+Number of Critical Points = 18
+Number of Branches = 9
+** field 5 ** 
+Number of Critical Points = 18
+Number of Branches = 9
+** field 6 ** 
+Number of Critical Points = 18
+Number of Branches = 9
+** field 7 ** 
+Number of Critical Points = 18
+Number of Branches = 9

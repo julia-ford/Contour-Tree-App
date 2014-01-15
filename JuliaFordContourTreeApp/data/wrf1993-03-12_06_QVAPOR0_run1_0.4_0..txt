@@ -1,0 +1,34 @@
+fieldNum=8
+I= 28
+J= 25
+K= 1
+value: 0.002323 - 0.003895 
+d value: 0.000000 - 0.001085 
+Number of Critical Points = 64
+Number of Arcs = 63
+Number of Branches = 32
+Number of Recur = 31
+** field 0 ** 
+Number of Critical Points = 64
+Number of Branches = 32
+** field 1 ** 
+Number of Critical Points = 64
+Number of Branches = 32
+** field 2 ** 
+Number of Critical Points = 64
+Number of Branches = 32
+** field 3 ** 
+Number of Critical Points = 64
+Number of Branches = 32
+** field 4 ** 
+Number of Critical Points = 64
+Number of Branches = 32
+** field 5 ** 
+Number of Critical Points = 64
+Number of Branches = 32
+** field 6 ** 
+Number of Critical Points = 64
+Number of Branches = 32
+** field 7 ** 
+Number of Critical Points = 64
+Number of Branches = 32

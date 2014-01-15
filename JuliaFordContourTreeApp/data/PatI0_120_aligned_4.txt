@@ -1,0 +1,25 @@
+fieldNum=5
+I= 32
+J= 32
+K= 18
+value: 0.102139 - 1995.291748 
+d value: 0.000000 - 2866.400879 
+Number of Critical Points = 1614
+Number of Arcs = 1613
+Number of Branches = 807
+Number of Recur = 806
+** field 0 ** 
+Number of Critical Points = 1614
+Number of Branches = 807
+** field 1 ** 
+Number of Critical Points = 1614
+Number of Branches = 807
+** field 2 ** 
+Number of Critical Points = 1614
+Number of Branches = 807
+** field 3 ** 
+Number of Critical Points = 1614
+Number of Branches = 807
+** field 4 ** 
+Number of Critical Points = 1614
+Number of Branches = 807

@@ -1,0 +1,25 @@
+fieldNum=5
+I= 8
+J= 4
+K= 6
+value: 3.600000 - 82.000000 
+d value: 0.000000 - -10000000.000000 
+Number of Critical Points = 8
+Number of Arcs = 7
+Number of Branches = 4
+Number of Recur = 3
+** field 0 ** 
+Number of Critical Points = 8
+Number of Branches = 4
+** field 1 ** 
+Number of Critical Points = 8
+Number of Branches = 4
+** field 2 ** 
+Number of Critical Points = 8
+Number of Branches = 4
+** field 3 ** 
+Number of Critical Points = 8
+Number of Branches = 4
+** field 4 ** 
+Number of Critical Points = 8
+Number of Branches = 4
