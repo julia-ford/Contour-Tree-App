@@ -119,7 +119,8 @@ namespace JuliaFordContourTreeApp.File_Data
 				int currentSpaceIndex = 0;
 				int numSpacesRead = 0;
 				// Keep reading spaces until the end of the line is reached.
-				while (currentSpaceIndex < firstNewlineIndex - 1) {
+				// It's a '-2' because there's a '\r' in front of the '\n'
+				while (currentSpaceIndex < firstNewlineIndex - 2) {
 					currentSpaceIndex = fileData.IndexOf(' ', currentSpaceIndex + 1);
 					numSpacesRead++; }
 				// The x dimen of the file is the number of values on a line.

@@ -141,12 +141,16 @@ namespace JuliaFordContourTreeApp.Tree_Views
 		/// <summary>
 		/// Mutator for the contour tree that this view displays information about.
 		/// </summary>
-		/// <param name="tree"></param>
+		/// <param name="tree">the tree to be displayed</param>
 		public void SetTree(ContourTree tree)
 		{
 			this.tree = tree;
-			this.maxValue = tree.GetMaxValue();
-			this.minValue = tree.GetMinValue();
+			if (tree != null) {
+				this.maxValue = tree.GetMaxValue();
+				this.minValue = tree.GetMinValue(); }
+			else {
+				this.maxValue = 0;
+				this.minValue = 0; }
 		}
 
 		/// <summary>
